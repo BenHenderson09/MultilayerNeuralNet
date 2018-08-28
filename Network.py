@@ -11,7 +11,7 @@ iterations = 70000
 # The hidden layer nodes is how many nodes within the hidden layer
 hiddenLayerNodes = 10
 
-# --- Input training examples (hours slept, hours studied, iq) --- 
+# --- Input training examples --- 
 X = np.array([[0,0,1],
             [0,1,1],
             [1,0,1],
