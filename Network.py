@@ -39,7 +39,7 @@ np.random.seed(1)
 # The reason we give them a mean of 0 is similar to the reason we set the seed. This is to make similar.
 # Note: X[0].size denotes the number of input nodes.
 weights0 = 2 * np.random.random((X[0].size,hiddenLayerNodes)) - 1
-weights1 = 2 * np.random.random((hiddenLayerNodes,X[0].size)) - 1
+weights1 = 2 * np.random.random((hiddenLayerNodes,1)) - 1
 
 # This is where the network is trained. The number of iterations is set to a high value because weights are altered by a small value
 # each iteration. The higher value of iterations means more precise predictions, but once it reaches a certain point there is very
